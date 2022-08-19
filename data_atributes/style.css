@@ -1,0 +1,15 @@
+body{
+    width: 50vh;
+    justify-content: space-around;
+    margin: auto;
+}
+textarea{
+    font-size: 20px;
+}
+#tecla{
+    width: 80px;
+    height: 80px;
+    border: 4px solid gray;
+    text-align: center;
+    align-content: center;
+}
