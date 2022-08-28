@@ -1,0 +1,52 @@
+#email{
+    display: grid;
+    box-sizing: border-box;
+    align-items: stretch;
+    justify-items: center;
+    width: 60vw;
+    margin: 50px auto auto auto;
+}
+#in_email{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+#in_email:focus{
+   
+    
+}
+.span{
+    color: red;
+    font-size: 12px;
+    justify-self: start;
+    margin-left: 10%;
+    padding: 3px;
+    visibility: hidden;   
+}
+.sucesso{
+    color: green;
+    font-size: 12px;
+    justify-self: start;
+     margin-left: 10%;
+    padding: 3px;
+    visibility: hidden;
+}
+.sucesso.ok{
+    visibility: visible;
+}
+#send_email{
+    width: 50%;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.email.erro_email{
+    border: 2px solid red;
+    border-radius: 10px;
+    color:red;
+}
+.span.mensagem_erro_email{
+    visibility: visible;
+}

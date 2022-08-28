@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mensagem personalizada para input</title>
+		<link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="reset.css">
+		<form id="form_email" novalidate>
+            <div id="email">
+			<input
+				name="email"
+				onkeyup="teste()"
+                class="in_email"
+				id="in_email"
+				type="email"
+				required
+				autocomplete="off"
+				placeholder="Insira seu email"
+			/>
+			<span id="mensagem_email" class="span">Esse não é um e-mail válido</span>
+			<input id="send_email" type="submit" value="Enviar" disabled/>
+            <span id= "sucesso" class="sucesso">E-mail cadastrado com sucesso</span>
+            </div>
+		</form>
+		<script src="/validador_de_mensagem_personalizado/main.js"></script>
+	</body>
+</html>

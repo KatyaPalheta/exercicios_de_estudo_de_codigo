@@ -1,15 +1,13 @@
-const frases = document.querySelector("#texto");
-frases = addEventListener("click", function () {
-  frases.innerText = "Já chegou";
+const frases = document.querySelector('#texto');
+frases.addEventListener('click', function () {
+	frases.innerHTML = 'Já chegou';
 });
 
-const botaoVermelho = document.querySelector("#vermelho");
-botaoVermelho = addEventListener("click", function () {
-  frases.style.color = "magenta";
-});
-
-function mudarFrase() {
-  frases.innerText = "Já chegou";
+function mudar(x) {
+	x.style.background = 'green';
 }
 
-function mudarVermelho() {}
+const botaoVermelho = document.querySelector('#vermelho');
+botaoVermelho.addEventListener('click', function () {
+	frases.style.background = 'magenta';
+});
