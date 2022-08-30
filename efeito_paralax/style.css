@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100vw;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section:nth-of-type(1){
+    background-image: url('/efeito_paralax/images/beyoncé.png');
+    height: 100vh;
+    background-position: center top;
+    
+}
+section:nth-of-type(3) {
+    background-image: url('/efeito_paralax/images/gaga.png');
+    height: 100vh;
+    background-position: left top;
+    
+}
+section:nth-of-type(5) {
+    background-image: url('/efeito_paralax/images/madonna.png');
+    height: 100vh;
+    background-position: center;
+   
+}
+section:nth-of-type(7) {
+    background-image: url('/efeito_paralax/images/rihanna.png');
+    height: 100vh;
+    background-position: center top;
+    
+}
