@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.carrossel{
+    color: #fff;
+    width: 100vw;
+    height: max-content;
+    background-color: gray;
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+    margin: auto;
+    position: relative;
+}
+.swiper-pagination{
+    position: initial;
+    margin: 2em;
+}
+.swiper-wrapper{
+    width: 80vw;
+}
+.swiper-button-prev, .swiper-button-next{
+    
+}

@@ -5,7 +5,44 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Teste Swipe</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+		/>
 		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body></body>
+	<body>
+		<section class="carrossel">
+			<h1>ALBUNS</h1>
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/06v9eHnqhMK2tbM2Iz3p0Y?utm_source=generator" width="80%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+    <div class="swiper-slide"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/77eZ5eMEh3U0KWricrbevO?utm_source=generator" width="80%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+    <div class="swiper-slide"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/23Y5wdyP5byMFktZf8AcWU?utm_source=generator" width="80%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+    <div class="swiper-slide"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1gIC63gC3B7o7FfpPACZQJ?utm_source=generator" width="80%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+    <div class="swiper-slide"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2UJwKSBUz6rtW4QLK74kQu?utm_source=generator" width="80%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+    <div class="swiper-slide"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6FJxoadUE4JNVwWHghBwnb?utm_source=generator" width="80%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+  </div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-pagination"></div>
+		</section>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                speed: 400,
+                spaceBetween: 10,
+                slidesPerView: 3,
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                });
+        </script>
+	</body>
 </html>
