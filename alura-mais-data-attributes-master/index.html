@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Data Attributes</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="tabs">
+      <button class="ativa" data-tab="entrar">Entrar</button>
+      <button data-tab="cadastrar">Cadastre-se</button>
+    </div>
+
+    <div class="contents">
+      <div data-content="entrar">
+        <form class="form">
+          <input type="text" name="email" placeholder="Seu e-mail">
+          <input type="password" name="senha" placeholder="Sua senha">
+          <button>Entrar</button>
+        </form>
+      </div>
+      <div class="hide" data-content="cadastrar">
+        <form class="form">
+          <input type="text" name="email" placeholder="Seu e-mail">
+          <input type="password" name="senha" placeholder="Sua senha">
+          <input type="password" name="senha" placeholder="Repita sua senha">
+          <button>Cadastrar</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
