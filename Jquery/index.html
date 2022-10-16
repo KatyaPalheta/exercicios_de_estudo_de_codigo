@@ -19,6 +19,27 @@
                 });
 			});
 		</script>
+        <style>
+            #banner{
+                margin:auto;
+                width: 960px;
+                height: 300px;
+                border: 1px solid #000;
+            }
+            #btAnte, #btProx{
+                line-height: 300px;
+                font-size:50px;
+                color: rgba(0, 0, 0, 0.75);
+                font-weight: bold;
+                cursor: pointer;
+            }
+            #btAnte{
+                float: left;
+            }
+            #btProx{
+                float: right;
+            }
+        </style>
 		<title>Document</title>
 	</head>
 	<body>
@@ -31,6 +52,11 @@
             <div id="res"></div>
             <p>==================================================================================</p>
         </section>
-        
+        <section id="banner">
+            <div id="btAnte"></div>
+            <div id="btProx"></div>
+
+        </section>
+
 	</body>
 </html>
