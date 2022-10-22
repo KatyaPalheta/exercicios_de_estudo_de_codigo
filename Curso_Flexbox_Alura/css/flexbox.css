@@ -10,16 +10,30 @@
 	display: none;
 }
 
+/*Seção Superior*/
+
+.superior__secao__container {
+	display: flex;
+	align-items: center;
+	white-space: nowrap;
+	overflow: scroll;
+	gap: 15px;
+}
+
+/*Rodapé*/
+
 .rodape__container {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-flow: column wrap;
 }
 
 @media (min-width: 834px) {
+	/*Cabeçalho*/
 	.cabecalho__pesquisar__item {
 		display: block;
 	}
+
+	/*Rodapé*/
 	.rodape__container {
 		justify-content: space-between;
 	}
