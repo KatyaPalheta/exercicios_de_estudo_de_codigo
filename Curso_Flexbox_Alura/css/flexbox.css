@@ -61,9 +61,36 @@
 		display: block;
 	}
 
+	/*Menu lateral*/
+
+	.menu__container {
+		left: 0;
+		height: auto;
+		width: 74px;
+		top: 80px;
+	}
+
+	.menu__lista {
+		flex-direction: column;
+		justify-content: flex-start;
+		padding-top: 15px;
+		gap: 33px;
+	}
+
 	/*Rodapé*/
 	.rodape__container {
 		justify-content: space-between;
 	}
 }
-/*teste para iniciar o projeto*/
+
+@media (min-width: 1440px) {
+	.menu__container {
+		width: 239px;
+	}
+
+	.menu__lista:nth-child(2),
+	.menu__lista:nth-child(3),
+	.menu__lista:nth-child(4) {
+		display: flex;
+	}
+}
