@@ -13,6 +13,7 @@
 /*Seção Superior*/
 
 .superior__secao__container {
+	display: flex;
 	align-items: center;
 	white-space: nowrap;
 	overflow: scroll;
@@ -86,11 +87,42 @@
 @media (min-width: 1440px) {
 	.menu__container {
 		width: 239px;
+		overflow: scroll;
+		gap: 20px;
+	}
+
+	.menu__lista {
+		height: auto;
+		padding: 20px 17px 20px 15px;
+		gap: 15px;
+	}
+
+	.menu__itens {
+		flex-direction: row;
+		gap: 15px;
+		align-items: center;
+		padding: 5px;
 	}
 
 	.menu__lista:nth-child(2),
 	.menu__lista:nth-child(3),
 	.menu__lista:nth-child(4) {
 		display: flex;
+	}
+
+	.menu__lista:nth-child(3) {
+		flex-direction: column-reverse;
+	}
+	.jogos {
+		order: 3;
+	}
+	.premium {
+		order: 1;
+	}
+	.filmes {
+		order: 2;
+	}
+	.maispagina {
+		order: 4;
 	}
 }
