@@ -4,11 +4,11 @@
 }
 
 .secao-horizontal .cartao__imagem {
-	grid-column-start: 1;
+	/*grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 1;
-	grid-row-end: 4;
-	grid-area: 1/1/4/2;
+	grid-row-end: 4;*/
+	grid-area: 1/1/4/2; /*roll start,colum start,row end, colum end*/
 }
 
 .secao-horizontal .cartao__botao {
