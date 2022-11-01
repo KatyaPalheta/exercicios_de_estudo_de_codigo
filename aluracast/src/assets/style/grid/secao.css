@@ -1,7 +1,7 @@
 .secao {
 	display: grid;
+	align-items: center;
 }
-
 .secao-horizontal {
 	grid-template-rows: 120px auto;
 }
