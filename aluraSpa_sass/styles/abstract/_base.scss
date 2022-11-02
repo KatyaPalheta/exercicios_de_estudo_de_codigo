@@ -1,4 +1,7 @@
+@import '../abstract/variaveis';
+
 html,
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fonte;
+    background-color: $cor-tercearia;
 }

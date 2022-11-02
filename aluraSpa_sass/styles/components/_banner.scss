@@ -1,0 +1,30 @@
+.banner{
+    background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+    min-height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.75;
+    
+
+    .inner-banner{
+        padding: 3rem;
+        background-color: $cor-tercearia;
+        opacity: 0.9;
+        border-radius: 45px;
+        
+h1{
+    font-size:$tamanho-do-texto;
+    color: $cor-primaria;
+    text-align: center;
+}
+
+h2{
+    font-size: $tamanho-do-texto /2;
+    color: $cor-quaternaria;
+    text-align: center;
+}
+
+    }
+}

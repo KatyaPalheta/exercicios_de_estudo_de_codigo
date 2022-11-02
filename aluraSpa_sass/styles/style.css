@@ -1,10 +1,15 @@
 html,
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #FFFFDE;
 }
 
 nav {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
 }
 nav ul li {
   display: inline-block;
@@ -14,4 +19,53 @@ nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+  color: #FF7396;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #F4E06D;
+  font-size: 1.5rem;
+}
+
+.banner {
+  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.75;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #FFFFDE;
+  opacity: 0.9;
+  border-radius: 45px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #FF7396;
+  text-align: center;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #C499BA;
+  text-align: center;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.2rem;
+  color: #C499BA;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
