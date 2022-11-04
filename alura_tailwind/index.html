@@ -29,7 +29,7 @@
 	<body
 		class="bg-azul-claro font-inter flex justify-center items-center h-screen"
 	>
-		<main class="flex">
+		<main class="flex px-6">
 			<section class="bg-azul-escuro hidden">
 				<img
 					class=""
@@ -38,7 +38,7 @@
 				/>
 			</section>
 
-			<section class="bg-white">
+			<section class="flex flex-col bg-white p-10 gap-6">
 				<div class="">
 					<svg
 						class=""
@@ -72,19 +72,23 @@
 				</div>
 
 				<div class="text-center">
-					<h1 class="">Alura Newsletter</h1>
-					<p class="">Mergulhe em uma plataforma que respira tecnologia!</p>
+					<h1 class="text-4xl">Alura Newsletter</h1>
+					<p class="text-xl text-gray-700">
+						Mergulhe em uma plataforma que respira tecnologia!
+					</p>
 				</div>
 
 				<form>
-					<label class="" for="email">Email</label>
+					<label class="text-sm font-bold text-gray-700" for="email">Email</label>
 					<input
-						class=""
+						class="text-sm w-full"
 						id="email"
 						type="email"
 						placeholder="Digite seu endereço de email"
 					/>
-					<button class="" type="button">Inscreva-se</button>
+					<button class="font-bold text-white bg-azul-escuro w-full" type="button">
+						Inscreva-se
+					</button>
 				</form>
 			</section>
 		</main>
